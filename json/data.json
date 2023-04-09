@@ -35,6 +35,15 @@
             "info": "Valentino Uomo Intense de Valentino es una fragancia de la familia olfativa Cuero para Hombres. Valentino Uomo Intense se lanzó en 2016. Las Notas de Salida son mandarina y esclarea; las Notas de Corazón son iris y haba tonka; las Notas de Fondo son vainilla y cuero.",
             "price": "170",
             "link": "valentino_intense"
+          },
+          {
+            "image": "https://ik.imagekit.io/tfotr241290/gentleman2.jpg?updatedAt=1681074620918",
+            "brand": "Givenchy",
+            "perfume": "Gentleman EDT",
+            "quantity": "3 mililitros",
+            "info": "Gentleman (2017) de Givenchy es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Gentleman (2017) se lanzó en 2017. Gentleman (2017) fue creada por Olivier Cresp y Nathalie Lorson. Las Notas de Salida son pera, cardamomo y piña; las Notas de Corazón son iris, lavanda y geranio; las Notas de Fondo son cuero, vaina de vainilla negra y pachulí.",
+            "price": "130",
+            "link": "gentleman_edt"
           }
 
            ]

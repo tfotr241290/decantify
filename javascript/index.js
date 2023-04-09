@@ -29,7 +29,7 @@ function displayPerfumes(perfumeInfo){
 
     h2.textContent = `${perfumeInfo.perfume}`;
     h3.textContent = `${perfumeInfo.brand}`;
-    p1.textContent = `$ ${perfumeInfo.price}-MXN`;
+    p1.textContent = `Precio: $ ${perfumeInfo.price} MXN`;
     p2.textContent = `Cantidad: ${perfumeInfo.quantity}`;
     p3.textContent = `${perfumeInfo.info}`;
     botonVer.textContent = "Ver más";
