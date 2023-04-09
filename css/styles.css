@@ -1,0 +1,181 @@
+h1,h2,h3{
+    font-family: 'Open Sans', sans-serif;
+}
+p, button{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+}
+header img{
+    height: 150px;
+    margin: 1.2rem;
+    border-radius: .2rem;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    margin: .5rem;
+    align-self: center;
+}
+header nav ul li{
+    padding: .5rem;
+    list-style-type: none;
+    margin: .5rem;
+}
+header nav ul a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.social-media{
+    align-self: center;
+    margin-left: 5rem;
+}
+.social-media img{
+    height: 50px;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainTitle{
+    margin: 1rem;
+}
+.mainTitle li{
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    font-weight: bold;
+}
+.pregunta{
+    padding: 2rem;
+    margin: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #F5F5F5;
+}
+.pregunta h1{
+    text-align: center;
+}
+.pregunta p{
+    text-align: justify;
+}
+
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: auto;
+    gap: 2rem;
+}
+
+.content section{
+    padding: 1rem;
+}
+.content section img{
+    width: 100%;
+    height: auto;
+}
+.content section h2,h3{
+    text-align: center;
+}
+.content section p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.content section button{
+    background-color: black;
+    color: white;
+    padding: .8rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #5555dd;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+footer img{
+    height: 70px;
+    border-radius: .3rem;
+    border: none;
+}
+
+.single{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    gap: .5rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+.single h2,h3{
+    text-align: center;
+}
+.single p{
+    text-align: justify;
+}
+
+.single img{
+    width: 100%;
+    height: auto;
+}
+
+.information{
+    padding: 2rem;
+}
+
+.notes img{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 450px){
+    header{
+        display: block;
+    }
+    header nav ul{
+        display: block;
+    }
+    header img{
+        height: 80px;
+    }
+    header nav ul a{
+        font-size: 17px;
+    }
+    .social-media{
+        display: none;
+    }
+    .pregunta{
+        margin: 0;
+    }
+
+    .single{
+        padding: 0;
+    }
+    .information{
+        padding: 0;
+    }
+}
