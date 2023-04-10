@@ -98,7 +98,7 @@ main{
 }
 .content section p{
     text-align: justify;
-    font-size: 1.2rem;
+    
 }
 .content section button{
     background-color: black;
@@ -152,9 +152,23 @@ footer img{
     height: auto;
 }
 
+.addbutton{
+    text-align: center;
+}
+.addbutton button{
+    margin: 1rem;
+    padding: .8rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
 @media only screen and (max-width: 450px){
     header{
         display: block;
+        padding-bottom: .2rem;
     }
     header nav ul{
         display: block;
