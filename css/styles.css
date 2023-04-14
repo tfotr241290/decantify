@@ -8,9 +8,9 @@ p, button{
 
 header{
     width: 100%;
-    background-color: black;
+    background-color: white;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 header img{
     height: 150px;
@@ -44,6 +44,24 @@ header nav ul a{
 }
 .social-media img{
     height: 50px;
+}
+.cart{
+    display: flex;
+    align-self: center;
+    margin: 2rem;
+}
+.cart img{
+    height: 50px;
+}
+.cart span{
+    position: absolute;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
 }
 
 .hero img{
