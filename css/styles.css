@@ -76,7 +76,7 @@ header nav ul a{
     left: 100%;
     width: 500px;
     height: 100vh;
-    background-color: #453E3B;
+    background-color: rgba(0,0,0,0.8);
     transition: 0.5s;
 }
 .card h1{
@@ -203,7 +203,7 @@ main{
 }
 
 footer{
-    background-color: #5555dd;
+    background-color: black;
     color: white;
     padding: 2rem;
     text-align: center;
