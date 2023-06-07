@@ -52,6 +52,7 @@ header nav ul a{
     margin: 2rem;
 }
 .cart img{
+    cursor: pointer;
     height: 50px;
 }
 .cart span{
@@ -143,6 +144,11 @@ header nav ul a{
 main{
     width: 100%;
     margin: 0 auto;
+}
+
+.mainCheckout li img{
+    width: 250px;
+    height: auto;
 }
 
 .mainTitle{
