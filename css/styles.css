@@ -11,12 +11,14 @@ header{
     background-color: white;
     display: flex;
     justify-content: space-between;
+
 }
 header img{
-    height: 150px;
+    height: 120px;
     margin: 1.2rem;
     border-radius: .2rem;
 }
+
 
 header nav ul{
     display: flex;
@@ -340,11 +342,14 @@ footer img{
         grid-template-rows: auto;
         gap: .2rem;
         padding-bottom: .2rem;
+        height: auto;
     }
-    header nav ul{
-        display: block;
+
+    header #logoImg{
+        margin: 0;
     }
-    header,footer img{
+
+    footer img{
         height: 100px;
     }
     header nav ul a{
