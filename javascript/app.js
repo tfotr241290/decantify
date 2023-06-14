@@ -2,7 +2,7 @@ let openShopping = document.querySelector('.cart');
 let closeShopping = document.querySelector('.closeShopping');
 let list = document.querySelector('.content');
 let listCard = document.querySelector('.listCard');
-let quantity = document.querySelector('.quantity');
+let quantityy = document.querySelector('.quantityy');
 let total = document.querySelector('.total');
 let body = document.querySelector('body');
 let checkoutSection = document.querySelector('.mainCheckout');
@@ -139,7 +139,7 @@ initApp();
 function addToCard(key){
     if(listCards[key] == null){
         listCards[key] = products[key];
-        listCards[key].quantity = 1;
+        listCards[key].quantityy = 1;
     }
     reloadCard();   
 }
@@ -149,8 +149,9 @@ function reloadCard(){
     let count = 0;
     let totalPrice = 0;
     listCards.forEach((value,key) =>{
-        totalPrice = totalPrice + value.price;
-        count = count + value.quantity;
+        totalPrice = parseInt(totalPrice) + parseInt(value.price);
+        console.log(totalPrice);
+        count = count + value.quantityy;
 
         if(value != null){
             let newDiv = document.createElement('li');
@@ -160,9 +161,9 @@ function reloadCard(){
                 <div>${value.price.toLocaleString()}</div>
                 
                 <div>
-                    <button onclick="changeQuantity(${key}, ${value.quantity - 1})">-</button>
-                    <div class="count">${value.quantity}</div>
-                    <button onclick="changeQuantity(${key}, ${value.quantity + 1})">+</button>
+                    <button onclick="changeQuantity(${key}, ${value.quantityy - 1})">-</button>
+                    <div class="count">${value.quantityy}</div>
+                    <button onclick="changeQuantity(${key}, ${value.quantityy + 1})">+</button>
                 </div>
             `;
             listCard.appendChild(newDiv);
@@ -170,7 +171,7 @@ function reloadCard(){
         }
     })
     total.innerText = totalPrice.toLocaleString();
-    quantity.innerText = count;
+    quantityy.innerText = count;
     localStorage.setItem("listCards", JSON.stringify(listCards));
     
 }
@@ -180,7 +181,7 @@ function changeQuantity(key, quantity){
     if(quantity == 0){
         delete listCards[key];
     }else{
-        listCards[key].quantity = quantity;
+        listCards[key].quantityy = quantity;
         listCards[key].price = quantity * products[key].price;
     }
     reloadCard();
