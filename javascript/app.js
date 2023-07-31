@@ -113,6 +113,33 @@ let products = [
           "info": "Orange Blossom de Jo Malone London es una fragancia de la familia olfativa Floral para Hombres y Mujeres. Orange Blossom se lanzó en 2003. La Nariz detrás de esta fragrancia es Jean Claude Delville. La Nota de Salida es flor de tangerina; las Notas de Corazón son flor de azahar del naranjo, lila y nenúfar (lirio de agua); las Notas de Fondo son iris y vetiver.",
           "price": "70",
           "link": "orange_blossom"
+        },
+        {
+          "image": "https://ik.imagekit.io/tfotr241290/amber%20oud.webp?updatedAt=1690776430965",
+          "brand": "Al Haramain",
+          "perfume": "Amber Oud Gold Edition",
+          "quantity": "Precio por mililitro",
+          "info": "Amber Oud Gold Edition de Al Haramain Perfumes es una fragancia de la familia olfativa Ámbar Vainilla para Hombres y Mujeres. Amber Oud Gold Edition se lanzó en 2018. Las Notas de Salida son bergamota y notas verdes; las Notas de Corazón son notas dulces, melón, piña y ámbar; las Notas de Fondo son almizcle, vainilla y notas amaderadas.",
+          "price": "70",
+          "link": "amber_oud"
+        },
+        {
+          "image": "https://ik.imagekit.io/tfotr241290/icon%20racing.jpg?updatedAt=1690780714270",
+          "brand": "Alfred Dunhill",
+          "perfume": "Icon Racing",
+          "quantity": "Precio por mililitro",
+          "info": "Icon Racing de Alfred Dunhill es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Icon Racing se lanzó en 2017. La Nariz detrás de esta fragrancia es Laurent Le Guernec. Las Notas de Salida son toronja (pomelo), cardamomo y bergamota; las Notas de Corazón son flor de azahar del naranjo, lavanda y pimienta; las Notas de Fondo son almizcle, madera de gaiac y vetiver.",
+          "price": "70",
+          "link": "icon_racing"
+        },
+        {
+          "image": "https://ik.imagekit.io/tfotr241290/rochas%20man.jpg?updatedAt=1690781812229",
+          "brand": "Rochas Paris",
+          "perfume": "Rochas Man",
+          "quantity": "Precio por mililitro",
+          "info": "Rochas Man de Rochas es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Rochas Man se lanzó en 1999. La Nariz detrás de esta fragrancia es Maurice Roucel. Las Notas de Salida son lavanda y bergamota; las Notas de Corazón son capuchino, frambuesa, jazmín, cedro de Virginia y lirio de los valles (muguete); las Notas de Fondo son vainilla, ámbar, sándalo y pachulí.",
+          "price": "70",
+          "link": "rochas_man"
         }
 ]
 
