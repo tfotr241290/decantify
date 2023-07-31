@@ -48,7 +48,7 @@ header nav ul a{
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 1.1rem;
 }
 
 
@@ -138,6 +138,10 @@ header nav ul a{
 
 .active .card{
     left: calc(100% - 500px);
+}
+
+.prices{
+    font-weight: bold;
 }
 
 
