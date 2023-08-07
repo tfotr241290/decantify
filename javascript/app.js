@@ -30,7 +30,7 @@ let products = [
         "perfume": "Invictus Platinum",
         "quantity": "Precio por mililitro",
         "info": "Invictus Platinum de Paco Rabanne es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Invictus Platinum se lanzó en 2022. Las Notas de Salida son toronja (pomelo) y absenta; las Notas de Corazón son menta y lavanda; las Notas de Fondo son ciprés y pachulí.",
-        "price": "45",
+        "price": "40",
         "link": "invictus_platinum"
       },
       {
@@ -57,7 +57,7 @@ let products = [
           "perfume": "Valentino Uomo Intense",
           "quantity": "Precio por mililitro",
           "info": "Valentino Uomo Intense de Valentino es una fragancia de la familia olfativa Cuero para Hombres. Valentino Uomo Intense se lanzó en 2016. Las Notas de Salida son mandarina y esclarea; las Notas de Corazón son iris y haba tonka; las Notas de Fondo son vainilla y cuero.",
-          "price": "55",
+          "price": "45",
           "link": "valentino_intense"
         },
         {
@@ -66,7 +66,7 @@ let products = [
           "perfume": "Gentleman EDT",
           "quantity": "Precio por mililitro",
           "info": "Gentleman (2017) de Givenchy es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Gentleman (2017) se lanzó en 2017. Gentleman (2017) fue creada por Olivier Cresp y Nathalie Lorson. Las Notas de Salida son pera, cardamomo y piña; las Notas de Corazón son iris, lavanda y geranio; las Notas de Fondo son cuero, vaina de vainilla negra y pachulí.",
-          "price": "40",
+          "price": "35",
           "link": "gentleman_edt"
         },
         {
@@ -75,7 +75,7 @@ let products = [
           "perfume": "Valentino Uomo Born In Roma",
           "quantity": "Precio por mililitro",
           "info": "Valentino Uomo Born in Roma de Valentino es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Valentino Uomo Born in Roma se lanzó en 2019. Valentino Uomo Born in Roma fue creada por Antoine Maisondieu y Guillaume Flavigny. Las Notas de Salida son Notas minerales, hojas de violeta y sal; las Notas de Corazón son jengibre y salvia; las Notas de Fondo son notas amaderadas y vetiver.",
-          "price": "45",
+          "price": "40",
           "link": "valentino_roma"
         },
         {
@@ -84,7 +84,7 @@ let products = [
           "perfume": "Bleu de Chanel Eau de Parfum",
           "quantity": "Precio por mililitro",
           "info": "Bleu de Chanel Eau de Parfum de Chanel es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Bleu de Chanel Eau de Parfum se lanzó en 2014. La Nariz detrás de esta fragrancia es Jacques Polge. Las Notas de Salida son toronja (pomelo), limón (lima ácida), menta, pimienta rosa, bergamota, aldehídos y cilantro; las Notas de Corazón son jengibre, nuez moscada, jazmín y melón; las Notas de Fondo son incienso, ámbar, cedro, sándalo, pachulí, Amberwood y ládano.",
-          "price": "55",
+          "price": "45",
           "link": "bleu_chanel"
         },
         {
@@ -93,7 +93,7 @@ let products = [
           "perfume": "The Most Wanted",
           "quantity": "Precio por mililitro",
           "info": "The Most Wanted de Azzaro es una fragancia de la familia olfativa Ámbar Especiada para Hombres. The Most Wanted se lanzó en 2021. La Nota de Salida es cardamomo; la Nota de Corazón es tófe; la Nota de Fondo es Amberwood.",
-          "price": "45",
+          "price": "40",
           "link": "most_wanted"
         },
         {
@@ -102,7 +102,7 @@ let products = [
           "perfume": "Light Blue Summer Vibes",
           "quantity": "Precio por mililitro",
           "info": "Light Blue Pour Homme Summer Vibes de Dolce&Gabbana es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Light Blue Pour Homme Summer Vibes se lanzó en 2023. La Nariz detrás de esta fragrancia es Alberto Morillas. La Nota de Salida es limón siciliano (lima siciliana); la Nota de Corazón es ciprés; la Nota de Fondo es Amberwood.",
-          "price": "40",
+          "price": "35",
           "link": "summer_vibes"
         },
         {
@@ -111,7 +111,7 @@ let products = [
           "perfume": "Orange Blossom",
           "quantity": "Precio por mililitro",
           "info": "Orange Blossom de Jo Malone London es una fragancia de la familia olfativa Floral para Hombres y Mujeres. Orange Blossom se lanzó en 2003. La Nariz detrás de esta fragrancia es Jean Claude Delville. La Nota de Salida es flor de tangerina; las Notas de Corazón son flor de azahar del naranjo, lila y nenúfar (lirio de agua); las Notas de Fondo son iris y vetiver.",
-          "price": "55",
+          "price": "50",
           "link": "orange_blossom"
         },
         {
