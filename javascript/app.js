@@ -39,7 +39,7 @@ let products = [
         "perfume": "Sauvage Elixir",
         "quantity": "Precio por mililitro",
         "info": "Sauvage Elixir de Dior es una fragancia de la familia olfativa Aromática para Hombres. Esta fragrancia es nueva. Sauvage Elixir se lanzó en 2021. La Nariz detrás de esta fragrancia es Francois Demachy. Las Notas de Salida son nuez moscada, canela, cardamomo y toronja (pomelo); la Nota de Corazón es lavanda; las Notas de Fondo son regaliz, sándalo, ámbar, pachulí y vetiver de Haití.",
-        "price": "105",
+        "price": "95",
         "link": "sauvage_elixir"
       },
       {
@@ -48,7 +48,7 @@ let products = [
           "perfume": "Light Blue Pour Homme",
           "quantity": "Precio por mililitro",
           "info": "Light Blue pour Homme de Dolce&Gabbana es una fragancia de la familia olfativa Cítrica Aromática para Hombres. Light Blue pour Homme se lanzó en 2007. Las Notas de Salida son toronja (pomelo), bergamota, mandarina siciliana y enebro de Virginia; las Notas de Corazón son pimienta, romero y palo de rosa de Brasil; las Notas de Fondo son almizcle, incienso y musgo de roble. Este perfume es el ganador del premio FiFi Award Fragrance Of The Year Men`s Luxe 2008.",
-          "price": "35",
+          "price": "30",
           "link": "lightblue_pourhomme"
         },
         {
@@ -66,7 +66,7 @@ let products = [
           "perfume": "Gentleman EDT",
           "quantity": "Precio por mililitro",
           "info": "Gentleman (2017) de Givenchy es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Gentleman (2017) se lanzó en 2017. Gentleman (2017) fue creada por Olivier Cresp y Nathalie Lorson. Las Notas de Salida son pera, cardamomo y piña; las Notas de Corazón son iris, lavanda y geranio; las Notas de Fondo son cuero, vaina de vainilla negra y pachulí.",
-          "price": "35",
+          "price": "30",
           "link": "gentleman_edt"
         },
         {
@@ -75,7 +75,7 @@ let products = [
           "perfume": "Valentino Uomo Born In Roma",
           "quantity": "Precio por mililitro",
           "info": "Valentino Uomo Born in Roma de Valentino es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Valentino Uomo Born in Roma se lanzó en 2019. Valentino Uomo Born in Roma fue creada por Antoine Maisondieu y Guillaume Flavigny. Las Notas de Salida son Notas minerales, hojas de violeta y sal; las Notas de Corazón son jengibre y salvia; las Notas de Fondo son notas amaderadas y vetiver.",
-          "price": "40",
+          "price": "45",
           "link": "valentino_roma"
         },
         {
@@ -120,7 +120,7 @@ let products = [
           "perfume": "Amber Oud Gold Edition",
           "quantity": "Precio por mililitro",
           "info": "Amber Oud Gold Edition de Al Haramain Perfumes es una fragancia de la familia olfativa Ámbar Vainilla para Hombres y Mujeres. Amber Oud Gold Edition se lanzó en 2018. Las Notas de Salida son bergamota y notas verdes; las Notas de Corazón son notas dulces, melón, piña y ámbar; las Notas de Fondo son almizcle, vainilla y notas amaderadas.",
-          "price": "30",
+          "price": "35",
           "link": "amber_oud"
         },
         {
@@ -138,7 +138,7 @@ let products = [
           "perfume": "Rochas Man",
           "quantity": "Precio por mililitro",
           "info": "Rochas Man de Rochas es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Rochas Man se lanzó en 1999. La Nariz detrás de esta fragrancia es Maurice Roucel. Las Notas de Salida son lavanda y bergamota; las Notas de Corazón son capuchino, frambuesa, jazmín, cedro de Virginia y lirio de los valles (muguete); las Notas de Fondo son vainilla, ámbar, sándalo y pachulí.",
-          "price": "25",
+          "price": "27",
           "link": "rochas_man"
         }
 ]
